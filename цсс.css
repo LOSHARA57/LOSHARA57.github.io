@@ -58,9 +58,9 @@
         overflow: hidden;
         position: fixed;
         height: 200px;
-        left: -100vw;
+        left: -100%;
         top: 100px;
-        width: calc(100vw + 70px);
+        width: calc(100% + 70px);
         padding-right: 70px;
         transition: 0.5s;
         z-index: 999;
