@@ -59,7 +59,7 @@
         position: fixed;
         height: 200px;
         left: -100vw;
-        top: 100;
+        top: 100px;
         width: calc(100vw + 70px);
         padding-right: 70px;
         transition: 0.5s;
