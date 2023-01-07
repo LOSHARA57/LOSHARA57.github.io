@@ -64,6 +64,8 @@
         padding-right: 30px;
         transition: 0.5s;
         z-index: 999;
+        
+        
     }
     .navbar:hover{
         left: 0;
@@ -74,6 +76,6 @@
     background: rgb(55, 7, 211);
     font-size: 20px;
 }
-.img{
+img{
     max-width: 100%;
 }
