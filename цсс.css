@@ -56,15 +56,17 @@
     }
     .navbar{
         position: fixed;
+        height: 40px;
         left: -100vw;
         top: 0;
-        width: calc(100vw + 20px);
-        padding-right: 20px;
+        width: calc(100vw + 40px);
+        padding-right: 40px;
         transition: 0.5s;
         z-index: 999;
     }
     .navbar:hover{
         left: 0;
+        height: max-content;
     }
 }
 .body{
