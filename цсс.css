@@ -55,8 +55,9 @@
         "footer";
     }
     .navbar{
+        overflow: hidden;
         position: fixed;
-        height: 40px;
+        height: 100px;
         left: -100vw;
         top: 0;
         width: calc(100vw + 40px);
