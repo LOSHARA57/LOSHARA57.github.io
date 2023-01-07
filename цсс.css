@@ -71,6 +71,9 @@
         left: 0;
         height: max-content;
     }
+    .center{
+        margin: 0;
+    }
 }
 .body{
     background: rgb(55, 7, 211);
