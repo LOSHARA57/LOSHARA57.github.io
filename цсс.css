@@ -57,11 +57,11 @@
     .navbar{
         overflow: hidden;
         position: fixed;
-        height: 100px;
+        height: 200px;
         left: -100vw;
-        top: 0;
-        width: calc(100vw + 40px);
-        padding-right: 40px;
+        top: 100;
+        width: calc(100vw + 70px);
+        padding-right: 70px;
         transition: 0.5s;
         z-index: 999;
     }
