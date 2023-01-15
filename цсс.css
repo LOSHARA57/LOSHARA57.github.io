@@ -17,7 +17,9 @@
     grid-row-gap: 0%;
     min-height: 100vh;
 }
-
+.links{
+    color: #000;
+}
 .header{
     height: 100px;
     grid-area: heder;
