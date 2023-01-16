@@ -28,7 +28,6 @@
 .center{
  grid-area: center;
  background-color: rgb(5, 89, 89);
- margin: 10px;
  padding: 20px;
 }
 .navbar{
@@ -40,7 +39,7 @@
 }
 .footer{
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     grid-area: footer;
     background: #000;
     color: rgb(255, 255, 255);
