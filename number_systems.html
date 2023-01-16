@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/цсс.css?v=0.0009">
+    <link rel="stylesheet" href="/цсс.css?v=0.00010">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,16 @@
           <div class="preloader__item"></div>
           <div class="preloader__item"></div>
         </div>
-      </div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+      </script>
     <input class="checkbox_input" type="checkbox" id="checkbox1">
     <div class="root">
         <div class="header">
