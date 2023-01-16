@@ -18,11 +18,11 @@
     position: relative;
     top: 50%;
     left: 50%;
-    width: 64px;
-    height: 64px;
-    margin-top: -32px;
-    margin-left: -32px;
-    background: url('loading_screen/102.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+    width: 500px;
+    height: 500px;
+    margin-top: -280px;
+    margin-left: -260px;
+    background: url('102.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
 }
 
 .loaded_hiding .preloader {
