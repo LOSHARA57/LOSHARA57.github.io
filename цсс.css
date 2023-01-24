@@ -68,7 +68,6 @@
     width: max-content;
     padding: 10px;
     border-radius: 15px;
-    list-style-type: none;
     margin-left: 10px;
 }
 .footer{
@@ -81,8 +80,11 @@
 .checkbox_input, .checkbox_label, .checkbox{
     display: none;
 }
-*{
-    margin: 0;
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    padding-left: 0; /* Сдвигаем список влево */
 }
 @media (max-aspect-ratio: 4/3){
     .root{
