@@ -23,11 +23,11 @@
     position: relative;
     top: 50%;
     left: 50%;
-    width: 1000px;
-    height: 1000px;
-    margin-top: -510px;
-    margin-left: -500px;
-    background: url('102.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+    width: 750px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -375px;
+    background: url(102.gif) no-repeat 50% 50%;
 }
 
 .loaded_hiding .preloader {
@@ -89,6 +89,16 @@ li {
     list-style-type: none; /* Убираем маркеры */
 }
 @media (max-aspect-ratio: 4/3){
+    .preloader__image {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 750px;
+        height: 600px;
+        margin-top: -300px;
+        margin-left: -375px;
+        background: url(102.gif) no-repeat 50% 50%;
+    }
     .root{
         grid-template-areas: 
         "heder"
