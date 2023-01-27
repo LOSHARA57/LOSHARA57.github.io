@@ -124,6 +124,7 @@ li {
     }
     .center{
         margin: 0;
+        margin-top: 5px;
     }
     .checkbox_label{
         background: rgb(188, 105, 105);
@@ -137,6 +138,7 @@ li {
     }
     .footer{
         margin: 0;
+        margin-bottom: 5px;
     }
     
 }
