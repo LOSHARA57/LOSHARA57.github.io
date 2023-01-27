@@ -90,9 +90,6 @@ li {
     list-style-type: none; /* Убираем маркеры */
 }
 @media (max-aspect-ratio: 4/3){
-    *{
-        margin: 2px;
-    }
     .root{
         grid-template-areas: 
         "heder"
@@ -127,8 +124,8 @@ li {
         height: max-content;
     }
     .center{
-        margin: 0;
-        margin-top: 4px;
+        margin: 10px;
+        margin-top: 10px;
     }
     .checkbox_label{
         background: rgb(188, 105, 105);
@@ -142,7 +139,7 @@ li {
     }
     .footer{
         margin: 0;
-        margin-top: 4px;
+        margin-top: 10px;
     }
     
 }
