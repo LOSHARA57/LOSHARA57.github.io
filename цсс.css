@@ -135,6 +135,9 @@ li {
         bottom: 0;
         right: 0;
     }
+    .footer{
+        margin: 0;
+    }
     
 }
 .body{
