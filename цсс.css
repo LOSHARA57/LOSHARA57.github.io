@@ -135,6 +135,7 @@ li {
 .body{
     background: rgb(55, 7, 211);
     font-size: 20px;
+    margin: 0;
 }
 img{
     max-width: 100%;
