@@ -52,6 +52,7 @@
     grid-column-gap: 1%;
     grid-row-gap: 0%;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header{
@@ -135,7 +136,6 @@ li {
 .body{
     background: rgb(55, 7, 211);
     font-size: 20px;
-    margin: 0;
 }
 img{
     max-width: 100%;
