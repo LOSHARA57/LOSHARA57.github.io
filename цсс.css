@@ -20,14 +20,16 @@
 }
 
 .preloader__image {
-    position: relative;
+    position: sticky;
     top: 50%;
     left: 50%;
-    width: 750px;
-    height: 600px;
-    margin-top: -300px;
-    margin-left: -375px;
-    background: url(102.gif) no-repeat 50% 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: -50%;
+    margin-left: -50%;
+    background: url(102.gif) no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .loaded_hiding .preloader {
@@ -88,16 +90,6 @@ li {
     list-style-type: none; /* Убираем маркеры */
 }
 @media (max-aspect-ratio: 4/3){
-    .preloader__image {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 750px;
-        height: 600px;
-        margin-top: -300px;
-        margin-left: -375px;
-        background: url(102.gif) no-repeat 50% 50%;
-    }
     .root{
         grid-template-areas: 
         "heder"
