@@ -81,6 +81,7 @@
     grid-area: footer;
     background: #000;
     color: rgb(255, 255, 255);
+    padding: 10px;
 }
 .checkbox_input, .checkbox_label, .checkbox{
     display: none;
