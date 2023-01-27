@@ -96,6 +96,9 @@ li {
         "center"
         "footer";
     }
+    .header{
+        margin: 0;
+    }
     .navbar, .checkbox{
         overflow: hidden;
         position: fixed;
@@ -125,6 +128,7 @@ li {
     .checkbox_label{
         background: rgb(188, 105, 105);
         display: inline-grid;
+        margin: 0;
     }
     .checkbox_input:checked + .root .checkbox_label{
         position: sticky;
