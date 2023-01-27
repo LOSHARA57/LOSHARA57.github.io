@@ -27,6 +27,7 @@
     height: 600px;
     margin-top: -300px;
     margin-left: -375px;
+    background: url(102.gif) no-repeat 50% 50%;
 }
 
 .loaded_hiding .preloader {
