@@ -59,14 +59,14 @@
 .header{
     height: 100px;
     grid-area: heder;
-    background: rgb(54, 54, 68);
+    background: rgb(35, 35, 42);
     margin-bottom: 10px;
     padding: 30px;
     border: 1px solid rgb(229 229 208);
 }
 .center{
     grid-area: center;
-    background: rgb(54 54 68);
+    background: rgb(35, 35, 42);
     padding: 20px;
     border: 1px solid rgb(229 229 208);
 }
@@ -74,7 +74,7 @@
     position: sticky;
     top: 0;
     grid-area: navbar;
-    background: rgb(54 54 68);
+    background: rgb(35, 35, 42);
     width: max-content;
     padding: 10px;
     border: 1px solid rgb(229 229 208);
@@ -83,7 +83,7 @@
     height: 100px;
     margin-top: 10px;
     grid-area: footer;
-    background: rgb(54 54 68);
+    background: rgb(35, 35, 42);
     padding: 10px;
     border: 1px solid rgb(229 229 208);
 }
@@ -148,7 +148,7 @@ li {
     
 }
 .body{
-    background: rgb(15, 15, 17);
+    background: rgb(23, 23, 27);
     font-size: 20px;
 }
 img{
