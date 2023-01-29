@@ -59,14 +59,14 @@
 .header{
     height: 100px;
     grid-area: heder;
-    background: rgb(28, 28, 34);
+    background: rgb(54 54 68);
     margin-bottom: 10px;
     padding: 30px;
     border: 1px solid rgb(255,255,255);
 }
 .center{
     grid-area: center;
-    background: rgb(28, 28, 34);
+    background: rgb(54 54 68);
     padding: 20px;
     border: 1px solid rgb(255,255,255);
 }
@@ -74,7 +74,7 @@
     position: sticky;
     top: 0;
     grid-area: navbar;
-    background: rgb(28, 28, 34);
+    background: rgb(54 54 68);
     width: max-content;
     padding: 10px;
     border: 1px solid rgb(255,255,255);
@@ -83,7 +83,7 @@
     height: 100px;
     margin-top: 10px;
     grid-area: footer;
-    background: rgb(28, 28, 34);
+    background: rgb(54 54 68);
     padding: 10px;
     border: 1px solid rgb(255,255,255);
 }
