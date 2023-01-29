@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(229 229 208);
 }
 .preloader {
     position: fixed;
@@ -59,7 +59,7 @@
 .header{
     height: 100px;
     grid-area: heder;
-    background: rgb(54 54 68);
+    background: rgb(54, 54, 68);
     margin-bottom: 10px;
     padding: 30px;
     border: 1px solid rgb(255,255,255);
