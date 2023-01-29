@@ -124,6 +124,7 @@ li {
         height: max-content;
     }
     .center{
+        margin: 0;
         margin-top: 10px;
     }
     .checkbox_label{
