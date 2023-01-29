@@ -62,13 +62,13 @@
     background: rgb(54, 54, 68);
     margin-bottom: 10px;
     padding: 30px;
-    border: 1px solid rgb(255,255,255);
+    border: 1px solid rgb(229 229 208);
 }
 .center{
     grid-area: center;
     background: rgb(54 54 68);
     padding: 20px;
-    border: 1px solid rgb(255,255,255);
+    border: 1px solid rgb(229 229 208);
 }
 .navbar{
     position: sticky;
@@ -77,7 +77,7 @@
     background: rgb(54 54 68);
     width: max-content;
     padding: 10px;
-    border: 1px solid rgb(255,255,255);
+    border: 1px solid rgb(229 229 208);
 }
 .footer{
     height: 100px;
@@ -85,7 +85,7 @@
     grid-area: footer;
     background: rgb(54 54 68);
     padding: 10px;
-    border: 1px solid rgb(255,255,255);
+    border: 1px solid rgb(229 229 208);
 }
 .checkbox_input, .checkbox_label, .checkbox{
     display: none;
