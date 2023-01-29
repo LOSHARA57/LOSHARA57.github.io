@@ -61,11 +61,13 @@
     background: aliceblue;
     margin-bottom: 10px;
     padding: 30px;
+    border: 1px solid rgb(255,255,255);
 }
 .center{
     grid-area: center;
     background-color: rgb(5, 89, 89);
     padding: 20px;
+    border: 1px solid rgb(255,255,255);
 }
 .navbar{
     position: sticky;
@@ -74,6 +76,7 @@
     background: rgb(255, 90, 90);
     width: max-content;
     padding: 10px;
+    border: 1px solid rgb(255,255,255);
 }
 .footer{
     height: 100px;
@@ -82,6 +85,7 @@
     background: #000;
     color: rgb(255, 255, 255);
     padding: 10px;
+    border: 1px solid rgb(255,255,255);
 }
 .checkbox_input, .checkbox_label, .checkbox{
     display: none;
@@ -144,7 +148,7 @@ li {
     
 }
 .body{
-    background: rgb(55, 7, 211);
+    background: rgb(23, 23, 27);
     font-size: 20px;
 }
 img{
