@@ -88,20 +88,8 @@ a:hover {
   transition: 0.3s
 }
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(148, 148, 148);
-  transition: 0.3s
-}
-.link::after {
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 2px;
-    background: #00FF00;
-    bottom: 5px;
-    left: 0;
-    transform: translateX(-50%);
-    transition: 0.5s;
 }
 .footer{
     height: 100px;
