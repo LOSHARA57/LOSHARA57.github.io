@@ -40,7 +40,6 @@
 .loaded .preloader {
     display: none;
 }
-
 .root{
     display: grid;
     grid-template-areas: 
@@ -84,7 +83,7 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   transition: 0.3s
 }
 a:active {
