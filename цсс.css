@@ -87,7 +87,7 @@ a:hover {
 }
 a:active {
   text-decoration: underline;
-  color: blue;
+  color: rgb(148, 148, 148);
 }
 .footer{
     height: 100px;
