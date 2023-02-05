@@ -79,6 +79,18 @@
     padding: 10px;
     border: 1px solid rgb(61 61 61);
 }
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+a:active {
+text-decoration: underline;
+}
 .footer{
     height: 100px;
     margin-top: 10px;
