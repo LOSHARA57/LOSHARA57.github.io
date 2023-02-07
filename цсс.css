@@ -55,6 +55,7 @@
     min-height: 97vh;
     margin: 0;
     grid-template-columns: max-content 1fr 1fr;
+    padding: 10px;
 }
 
 .header{
