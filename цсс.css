@@ -127,6 +127,7 @@ li {
     }
     .header{
         margin: 0;
+        margin-bottom: 1px;
     }
     .navbar, .checkbox{
         overflow: hidden;
@@ -168,7 +169,6 @@ li {
     }
     .footer{
         margin: 0;
-        margin-top: 10px;
         padding: 10px;
     }
     
