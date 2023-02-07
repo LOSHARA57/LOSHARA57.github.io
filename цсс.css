@@ -123,6 +123,7 @@ li {
         "footer";
         grid-template-columns: auto;
         padding: 0;
+        grid-row-gap: 0;
     }
     .header{
         margin: 0;
@@ -154,7 +155,6 @@ li {
     }
     .center{
         margin: 0;
-        margin-top: 10px;
         padding: 10px;
         border: 0;
     }
