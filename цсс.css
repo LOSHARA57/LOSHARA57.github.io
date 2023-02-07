@@ -50,8 +50,8 @@
     width: 100%;
     height: max-content;
     grid-template-rows: max-content max-content auto max-content ;
-    grid-column-gap: 1%;
-    grid-row-gap: 0%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     min-height: 97vh;
     margin: 0;
     grid-template-columns: max-content 1fr 1fr;
