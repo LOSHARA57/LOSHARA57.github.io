@@ -54,6 +54,7 @@
     grid-row-gap: 0%;
     min-height: 97vh;
     margin: 0;
+    grid-template-columns: max-content 1fr 1fr;
 }
 
 .header{
