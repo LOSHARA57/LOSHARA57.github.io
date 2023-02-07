@@ -118,7 +118,8 @@ li {
         "center"
         "center"
         "footer";
-        min-height: 90vh;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
     }
     .header{
         margin: 0;
