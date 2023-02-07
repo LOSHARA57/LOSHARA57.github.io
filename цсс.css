@@ -118,8 +118,7 @@ li {
         "center"
         "center"
         "footer";
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
+        grid-template-columns: auto;
     }
     .header{
         margin: 0;
