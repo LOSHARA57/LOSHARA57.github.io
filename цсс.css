@@ -124,6 +124,7 @@ li {
         "center"
         "footer";
         grid-template-columns: auto;
+        padding: 0;
     }
     .header{
         margin: 0;
