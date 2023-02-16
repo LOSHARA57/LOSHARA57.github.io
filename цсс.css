@@ -85,15 +85,15 @@
     margin: 5px;
 }
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
-  transition: 0.3s
+    text-decoration: underline;
+    transition: 0.3s
 }
 a:active {
-  text-decoration: underline;
-  color: rgb(148, 148, 148);
+    text-decoration: underline;
+    color: rgb(148, 148, 148);
 }
 .footer{
     height: 100px;
@@ -110,6 +110,11 @@ a:active {
 li {
     list-style-type: none;
     margin: 5px;
+}
+.rightimg  {
+    float: right;
+    margin-left: 1vh;
+    border: 2px solid rgb(229 229 208);
 }
 @media (max-aspect-ratio: 4/3){
     *{
@@ -174,7 +179,12 @@ li {
         border: 0;
         border-top: 1px solid rgb(61 61 61);;
     }
-    
+    .rightimg  {
+        display: none;
+    }
+    .mobimg{
+        min-width: 100vh;
+    }
 }
 .body{
     background: rgb(13, 17, 23);
@@ -186,8 +196,6 @@ img{
 .coc{
     margin-left: 2vh;
 }
-.rightimg  {
-float: right;
-margin-left: 1vh;
-border: 2px solid rgb(229 229 208);
+.mobimg{
+    display: none;
 }
