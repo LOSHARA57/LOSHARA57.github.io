@@ -115,6 +115,7 @@ li {
     float: right;
     margin-left: 1vh;
     border: 2px solid rgb(229 229 208);
+    display: block;
 }
 .mobimg{
     display: none;
@@ -186,7 +187,7 @@ li {
         display: none;
     }
     .mobimg{
-        min-width: 100vh;
+        display: block;
     }
 }
 .body{
