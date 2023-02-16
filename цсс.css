@@ -116,6 +116,9 @@ li {
     margin-left: 1vh;
     border: 2px solid rgb(229 229 208);
 }
+.mobimg{
+    display: none;
+}
 @media (max-aspect-ratio: 4/3){
     *{
         border-radius: 0;
@@ -195,7 +198,4 @@ img{
 }
 .coc{
     margin-left: 2vh;
-}
-.mobimg{
-    display: none;
 }
