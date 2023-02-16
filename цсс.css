@@ -187,5 +187,7 @@ img{
     margin-left: 2vh;
 }
 .rightimg  {
-float: right; /* Выравнивание по правому краю  */ 
+float: right;
+margin-left: 1vh;
+border: 1px solid rgb(229 229 208);
 }
