@@ -186,3 +186,6 @@ img{
 .coc{
     margin-left: 2vh;
 }
+.rightimg  {
+float: right; /* Выравнивание по правому краю  */ 
+}
