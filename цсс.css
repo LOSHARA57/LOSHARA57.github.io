@@ -188,6 +188,10 @@ li {
     }
     .mobimg{
         display: block;
+        max-width: 50vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid rgb(229 229 208);
     }
 }
 .body{
