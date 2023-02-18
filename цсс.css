@@ -120,17 +120,24 @@ li {
 .mobimg{
     display: none;
 }
+html {
+--scrollbarBG: rgb(13, 235, 24);
+--thumbBG: rgb(2, 147, 220);
+}
 body::-webkit-scrollbar {
-    width: 1em;
+    width: 15px;
 }
- 
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset rgb(215, 230, 15);
+    background: var(--scrollbarBG);
 }
- 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(229 229 208);
-  outline: 1px solid rgb(68, 38, 188);
+background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
 }
 @media (max-aspect-ratio: 4/3){
     *{
