@@ -125,12 +125,12 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset rgb(13, 17, 23);
+    -webkit-box-shadow: inset rgb(22 22 27);
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
+  background-color: rgb(157, 24, 24);
+  outline: 1px solid rgb(68, 38, 188);
 }
 @media (max-aspect-ratio: 4/3){
     *{
