@@ -121,8 +121,8 @@ li {
     display: none;
 }
 html {
---scrollbarBG: rgb(13, 235, 24);
---thumbBG: rgb(2, 147, 220);
+--scrollbarBG: rgb(35, 35, 42);
+--thumbBG: rgb(229 229 208);
 }
 body::-webkit-scrollbar {
     width: 15px;
