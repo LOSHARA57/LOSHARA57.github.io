@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+html {
+    --scrollbarBG: rgb(35, 35, 42);
+    --thumbBG: rgb(182, 182, 165);
+    --color1: rgb(22 22 27);
+    --color2: rgb(229 229 208);
+    --color3: rgb(61 61 61);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     border-radius: 20px;
-    color: rgb(229 229 208);
+    color: var(--color2);
 }
 .preloader {
     position: fixed;
@@ -61,17 +68,17 @@
 .header{
     height: 100px;
     grid-area: heder;
-    background: rgb(22 22 27);
+    background: var(--color1);
     margin-bottom: 10px;
     padding: 30px;
-    border: 1px solid rgb(61 61 61);
+    border: 1px solid var(--color3);
     margin: 5px;
 }
 .center{
     grid-area: center;
-    background: rgb(22 22 27);
+    background: var(--color1);
     padding: 20px;
-    border: 1px solid rgb(61 61 61);
+    border: 1px solid var(--color3);
     margin: 5px;
 }
 .navbar{
@@ -81,7 +88,7 @@
     background: rgb(35, 35, 42);
     width: max-content;
     padding: 10px;
-    border: 1px solid rgb(61 61 61);
+    border: 1px solid var(--color3);
     margin: 5px;
 }
 a:link {
@@ -99,9 +106,9 @@ a:active {
     height: 100px;
     margin-top: 10px;
     grid-area: footer;
-    background: rgb(22 22 27);
+    background: var(--color1);
     padding: 10px;
-    border: 1px solid rgb(61 61 61);
+    border: 1px solid var(--color3);
     margin: 5px;
 }
 .checkbox_input, .checkbox_label, .checkbox{
@@ -114,15 +121,11 @@ li {
 .rightimg  {
     float: right;
     margin-left: 1vh;
-    border: 2px solid rgb(229 229 208);
+    border: 2px solid var(--color2);
     display: block;
 }
 .mobimg{
     display: none;
-}
-html {
---scrollbarBG: rgb(35, 35, 42);
---thumbBG: rgb(182, 182, 165);
 }
 body::-webkit-scrollbar {
     width: 15px;
@@ -133,6 +136,7 @@ body {
 }
 body::-webkit-scrollbar-track {
     background: var(--scrollbarBG);
+    border-left: 1px solid var(--color3);
 }
 body::-webkit-scrollbar-thumb {
     background-color: var(--thumbBG);
@@ -162,7 +166,7 @@ body::-webkit-scrollbar-thumb:active{
     .header{
         margin: 0;
         border: 0;
-        border-bottom: 1px solid rgb(61 61 61);;
+        border-bottom: 1px solid var(--color3);
     }
     .navbar, .checkbox{
         overflow: hidden;
@@ -193,7 +197,7 @@ body::-webkit-scrollbar-thumb:active{
         border: 0;
     }
     .checkbox_label{
-        background: rgb(188, 105, 105);
+        background: rgb(230, 128, 128);
         display: inline-grid;
         margin: 0;
     }
@@ -206,7 +210,7 @@ body::-webkit-scrollbar-thumb:active{
         margin: 0;
         padding: 10px;
         border: 0;
-        border-top: 1px solid rgb(61 61 61);;
+        border-top: 1px solid var(--color3);
     }
     .rightimg  {
         display: none;
@@ -216,7 +220,7 @@ body::-webkit-scrollbar-thumb:active{
         max-width: 50vh;
         margin-left: auto;
         margin-right: auto;
-        border: 2px solid rgb(229 229 208);
+        border: 2px solid var(--color2);
     }
 }
 .body{
