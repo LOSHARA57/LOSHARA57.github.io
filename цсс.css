@@ -70,7 +70,7 @@ html {
     grid-area: heder;
     background: var(--color1);
     margin-bottom: 10px;
-    padding: 30px;
+    padding: 15px;
     border: 1px solid var(--color3);
     margin: 5px;
 }
@@ -153,6 +153,9 @@ body::-webkit-scrollbar-thumb:hover{
 body::-webkit-scrollbar-thumb:active{
     background-color: rgb(107, 107, 101);
 }
+.susa {
+    padding: 15px;
+}
 @media (max-aspect-ratio: 4/3){
     *{
         border-radius: 0;
@@ -219,6 +222,10 @@ body::-webkit-scrollbar-thumb:active{
     .rightimg  {
         display: none;
     }
+    .rightimg1 {
+        display: none;
+    }
+
     .mobimg{
         display: block;
         max-width: 50vh;
