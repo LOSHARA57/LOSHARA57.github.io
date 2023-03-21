@@ -124,6 +124,10 @@ li {
     border: 2px solid var(--color2);
     display: block;
 }
+.rightimg1 {
+    float: left;
+    border: 0;
+}
 .mobimg{
     display: none;
 }
