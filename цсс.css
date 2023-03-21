@@ -223,10 +223,6 @@ body::-webkit-scrollbar-thumb:active{
     .rightimg  {
         display: none;
     }
-    .rightimg1 {
-        display: none;
-    }
-
     .mobimg{
         display: block;
         max-width: 50vh;
