@@ -155,7 +155,7 @@ body::-webkit-scrollbar-thumb:active{
 }
 .susa {
     padding-top: 15px;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 @media (max-aspect-ratio: 4/3){
     *{
